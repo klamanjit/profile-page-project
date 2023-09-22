@@ -50,10 +50,10 @@ const isTopBar = ref(false);
       <li class="list">
         <base-button
           link
-          to="/home"
+          to="/"
           :class="{
-            cardActive: route.path === '/home',
-            card: route.path !== '/home',
+            cardActive: route.path === '/',
+            card: route.path !== '/',
           }"
         >
           <HomeIcon class="icon"></HomeIcon>
@@ -119,10 +119,10 @@ const isTopBar = ref(false);
       <li class="list">
         <base-button
           link
-          to="/home"
+          to="/"
           :class="{
-            cardActive: route.path === '/home',
-            card: route.path !== '/home',
+            cardActive: route.path === '/',
+            card: route.path !== '/',
           }"
         >
           <HomeIcon class="icon"></HomeIcon>
