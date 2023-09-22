@@ -23,7 +23,6 @@ async function usePutData(userName, userEmail, userMessage) {
     }
   } catch (err) {
     errorMessage.value = `fail to fetch, please try again later`;
-    console.log(err);
   }
 }
 
