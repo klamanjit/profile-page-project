@@ -1,7 +1,9 @@
 <template>
   <div class="2xl:container 2xl:mx-auto">
     <side-header></side-header>
-    <section class="sm:pt-20 lg:pt-12 lg:pl-72 w-full p-12">
+    <section
+      class="phone:pt-20 sm:pt-20 lg:pt-12 lg:pl-72 w-full phone:p-2 lg:p-12"
+    >
       <nav
         class="flex justify-between items-center border-b-4 border-b-slate-950 pb-4 mb-8"
       >
@@ -36,32 +38,221 @@
           <div class="div-line-resume">
             <p class="line-resume"></p>
           </div>
-          <h3 class="subhead-column">Self-Taught Programmer</h3>
+          <h3 class="subhead-column">Self-Learned Programmer</h3>
           <div class="relative">
             <span class="small-dot-resume">&#8226;</span>
             <p class="paragraph-resume ml-5">
-              Fundamental understanding of Python, HTML, CSS, and JavaScript.
+              Fundamental understanding of Python, HTML, CSS, JavaScript,
+              TypeScript and Vue.js.
             </p>
           </div>
           <div class="relative">
             <span class="small-dot-resume">&#8226;</span>
             <p class="paragraph-resume ml-5">
-              Able to code web pages from the ground up by using HTML, CSS and
-              JavaScript. Along with using basic of git version control.
+              Skilled in developing web pages from scratch using HTML, CSS, and
+              JavaScript, as well as utilizing frameworks like Vue.js and
+              Tailwind CSS. Along with using basic of git version control.
             </p>
           </div>
           <div class="relative">
             <span class="small-dot-resume">&#8226;</span>
-            <p class="paragraph-resume ml-5 mb-8">
+            <p class="paragraph-resume ml-5 mb-4">
               Porfolio on Github : <br />
               <a
-                class="text-slate-950"
+                class="text-slate-950 italic underline"
                 href="https://github.com/klamanjit/portfolio"
                 >https://github.com/klamanjit/portfolio</a
               >
             </p>
           </div>
         </div>
+
+        <!-- projects-->
+
+        <div class="col-start-1">
+          <div class="relative">
+            <span class="big-dot-resume">&#8226;</span>
+            <p class="paragraph-resume ml-8">Project Portfolio</p>
+            <p class="paragraph-resume ml-8">(6/2023)</p>
+          </div>
+        </div>
+
+        <div class="col-start-2">
+          <!-- Profile -->
+          <h3 class="subhead-column">Profile Page Project</h3>
+
+          <div class="relative">
+            <span class="small-dot-resume">&#8226;</span>
+            <p class="paragraph-resume ml-5">
+              My profile page includes my resume, side projects, and social
+              media links.
+            </p>
+          </div>
+          <div class="relative">
+            <span class="small-dot-resume">&#8226;</span>
+            <p class="paragraph-resume ml-5">
+              Developed web applications utilizing Vite.js and Vue.js(Vue 3) as
+              the primary frameworks, with styling implemented using Tailwind
+              CSS.
+            </p>
+          </div>
+          <div class="relative">
+            <span class="small-dot-resume">&#8226;</span>
+            <p class="paragraph-resume ml-5 mb-4">
+              Code and Site on GitHub : <br />
+              <a
+                class="text-slate-950 italic underline mr-2"
+                href="https://github.com/klamanjit/profile-page-project"
+                >View code</a
+              >
+              <a
+                class="text-slate-950 italic underline"
+                href="https://klamanjit.github.io/profile-page-project/"
+                >Visit Site</a
+              >
+            </p>
+          </div>
+
+          <!-- To do list -->
+          <h3 class="subhead-column">To Do List Project</h3>
+
+          <div class="relative">
+            <span class="small-dot-resume">&#8226;</span>
+            <p class="paragraph-resume ml-5">
+              To-do list platform for task management with add, edit, and delete
+              functionalities.
+            </p>
+          </div>
+          <div class="relative">
+            <span class="small-dot-resume">&#8226;</span>
+            <p class="paragraph-resume ml-5">
+              Developed web applications utilizing Vite.js and Vue.js(Vue 3) as
+              the primary frameworks, with styling implemented using Tailwind
+              CSS.
+            </p>
+          </div>
+          <div class="relative">
+            <span class="small-dot-resume">&#8226;</span>
+            <p class="paragraph-resume ml-5 mb-4">
+              Code and Site on GitHub : <br />
+              <a
+                class="text-slate-950 italic underline mr-2"
+                href="https://github.com/klamanjit/daily-task-project"
+                >View code</a
+              >
+              <a
+                class="text-slate-950 italic underline"
+                href="https://klamanjit.github.io/daily-task-project/"
+                >Visit Site</a
+              >
+            </p>
+          </div>
+
+          <!-- Food -->
+          <h3 class="subhead-column">Food Project</h3>
+
+          <div class="relative">
+            <span class="small-dot-resume">&#8226;</span>
+            <p class="paragraph-resume ml-5">
+              Focus on Thai cuisine, including descriptions of dishes and
+              associated restaurants.
+            </p>
+          </div>
+          <div class="relative">
+            <span class="small-dot-resume">&#8226;</span>
+            <p class="paragraph-resume ml-5">
+              Developed web applications utilizing Vite.js and Vue.js(Vue 3) as
+              the primary frameworks, with styling implemented using Tailwind
+              CSS.
+            </p>
+          </div>
+          <div class="relative">
+            <span class="small-dot-resume">&#8226;</span>
+            <p class="paragraph-resume ml-5 mb-4">
+              Code and Site on GitHub : <br />
+              <a
+                class="text-slate-950 italic underline mr-2"
+                href="https://github.com/klamanjit/jinan-food-project"
+                >View code</a
+              >
+              <a
+                class="text-slate-950 italic underline"
+                href="https://klamanjit.github.io/jinan-food-project/"
+                >Visit Site</a
+              >
+            </p>
+          </div>
+
+          <!-- catArticle -->
+          <h3 class="subhead-column">Cat Article Project</h3>
+
+          <div class="relative">
+            <span class="small-dot-resume">&#8226;</span>
+            <p class="paragraph-resume ml-5">
+              Offers comprehensive insights on the world's top five cat breeds,
+              including detailed descriptions, characteristics, and origins.
+            </p>
+          </div>
+          <div class="relative">
+            <span class="small-dot-resume">&#8226;</span>
+            <p class="paragraph-resume ml-5">
+              Designed and developed a web application utilizing TypeScript for
+              scripting, HTML for structure, and CSS for styling.
+            </p>
+          </div>
+          <div class="relative">
+            <span class="small-dot-resume">&#8226;</span>
+            <p class="paragraph-resume ml-5 mb-4">
+              Code and Site on GitHub : <br />
+              <a
+                class="text-slate-950 italic underline mr-2"
+                href="https://github.com/klamanjit/catsArticle-demo"
+                >View code</a
+              >
+              <a
+                class="text-slate-950 italic underline"
+                href="https://klamanjit.github.io/catsArticle-demo/"
+                >Visit Site</a
+              >
+            </p>
+          </div>
+
+          <!-- Kuro game page-->
+          <h3 class="subhead-column">Game page Project</h3>
+
+          <div class="relative">
+            <span class="small-dot-resume">&#8226;</span>
+            <p class="paragraph-resume ml-5">
+              Dedicated YouTube game channel featuring a variety of gameplays,
+              including Action, Strategy, and RPG genres.
+            </p>
+          </div>
+          <div class="relative">
+            <span class="small-dot-resume">&#8226;</span>
+            <p class="paragraph-resume ml-5">
+              Created web applications through the use of HTML, CSS, and
+              JavaScript, with a focus on responsive design and user-friendly
+              interfaces.
+            </p>
+          </div>
+          <div class="relative">
+            <span class="small-dot-resume">&#8226;</span>
+            <p class="paragraph-resume ml-5 mb-8">
+              Code and Site on GitHub : <br />
+              <a
+                class="text-slate-950 italic underline mr-2"
+                href="https://github.com/klamanjit/kuro-game-page-projrct"
+                >View code</a
+              >
+              <a
+                class="text-slate-950 italic underline"
+                href="https://klamanjit.github.io/kuro-game-page-projrct/"
+                >Visit Site</a
+              >
+            </p>
+          </div>
+        </div>
+
         <!-- 2nd row -->
         <!-- 1st column -->
         <div class="col-start-1">
@@ -198,20 +389,26 @@
         <ul class="col-end-3 col-span-2 flex justify-between">
           <li class="relative">
             <span class="big-dot-resume">&#8226;</span>
-            <h3 class="subhead-column ml-8">Microsoft Office</h3>
-            <p class="paragraph-resume ml-8">(Words, Excels, PowerPoint)</p>
+            <h3 class="subhead-column ml-8">Office Software</h3>
+            <p class="paragraph-resume ml-8">
+              (Words, Excels, PowerPoint, Page, Keynote)
+            </p>
           </li>
 
           <li class="relative">
             <span class="big-dot-resume">&#8226;</span>
-            <h3 class="subhead-column ml-8">Engineering Software</h3>
-            <p class="paragraph-resume ml-8">(Python, JavaScript, HTML, CSS)</p>
+            <h3 class="subhead-column ml-8">Programming Skills</h3>
+            <p class="paragraph-resume ml-8">
+              (Python, JavaScript, HTML, CSS, TypeScript, Vue.js, Tailwind CSS)
+            </p>
           </li>
 
           <li class="relative">
             <span class="big-dot-resume">&#8226;</span>
             <h3 class="subhead-column ml-8">Design Software</h3>
-            <p class="paragraph-resume ml-8">(Canva, Adobe premiere pro)</p>
+            <p class="paragraph-resume ml-8">
+              (Canvas, Adobe premiere pro, iMovie)
+            </p>
           </li>
         </ul>
       </main>
@@ -225,23 +422,23 @@
 }
 
 .nav-header-resume {
-  @apply text-3xl 2xl:text-5xl font-extrabold tracking-widest;
+  @apply phone:text-xl sm:text-3xl 2xl:text-5xl font-extrabold tracking-widest;
 }
 
 .paragraph-resume {
-  @apply text-base 2xl:text-xl text-slate-500;
+  @apply phone:text-xs sm:text-base 2xl:text-xl text-slate-500;
 }
 
 .header-column-resume {
-  @apply h-8 uppercase text-xl 2xl:text-3xl font-semibold tracking-widest mb-8;
+  @apply h-8 uppercase phone:text-base sm:text-xl 2xl:text-3xl font-semibold tracking-widest mb-8;
 }
 
 .big-dot-resume {
-  @apply text-6xl 2xl:text-7xl  absolute -top-6 left-0 2xl:-top-7;
+  @apply phone:text-4xl sm:text-6xl 2xl:text-7xl  absolute left-0 phone:-top-4 sm:-top-6  2xl:-top-7;
 }
 
 .div-line-resume {
-  @apply h-8 flex items-center justify-center mb-8;
+  @apply phone:h-7 h-8 flex items-center justify-center mb-8;
 }
 
 .line-resume {
@@ -249,10 +446,10 @@
 }
 
 .subhead-column {
-  @apply text-lg 2xl:text-2xl font-semibold mb-2;
+  @apply phone:text-sm  sm:text-lg 2xl:text-2xl font-semibold mb-2;
 }
 
 .small-dot-resume {
-  @apply text-3xl 2xl:text-4xl absolute -top-2 left-0;
+  @apply phone:text-xl  sm:text-3xl 2xl:text-4xl absolute -top-2 left-0;
 }
 </style>

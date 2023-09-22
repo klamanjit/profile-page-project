@@ -1,7 +1,7 @@
 <template>
   <div class="2xl:container 2xl:mx-auto">
     <side-header></side-header>
-    <section class="sm:pt-20 lg:pt-12 lg:pl-72 w-full p-12">
+    <section class="phone:pt-20 lg:pt-12 lg:pl-72 w-full p-12">
       <nav class="mb-24">
         <div class="container-project">
           <img
@@ -11,12 +11,14 @@
           />
           <div class="cover-image-project"></div>
           <div class="card-project">
-            <h2 class="card-header-project">Project Resume Page</h2>
+            <h2 class="card-header-project">Project Profile Page</h2>
             <p class="card-paragraph-project">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Consectetur itaque possimus et earum. Non obcaecati odit natus ad,
-              asperiores illum corporis autem repellat, maxime pariatur aliquam
-              eos quaerat magnam beatae.
+              My profile page is a comprehensive source of information about me,
+              featuring my resume, showcasing my side projects, and connecting
+              you to my social media presence. Feel free to explore my
+              background and interests by clicking the button below. Whether
+              you're looking to learn about my professional experience or
+              discover my creative endeavors, my profile page has it all!.
             </p>
             <div class="div-skill-project">
               <img
@@ -46,14 +48,25 @@
               />
             </div>
             <div class="button-container-project">
-              <base-button mode="card-project-button">Visit site</base-button>
-              <base-button mode="card-project-button">View code</base-button>
+              <a href="https://klamanjit.github.io/profile-page-project/">
+                <base-button mode="card-project-button">
+                  Visit site
+                </base-button>
+              </a>
+
+              <a href="https://github.com/klamanjit/profile-page-project">
+                <base-button mode="card-project-button">
+                  View code
+                </base-button>
+              </a>
             </div>
           </div>
         </div>
       </nav>
 
-      <main class="sm:flex sm:flex-col lg:grid lg:grid-cols-2 gap-4">
+      <main
+        class="phone:flex phone:flex-col lg:grid lg:grid-cols-2 phone:gap-4"
+      >
         <!-- To do list -->
         <div class="container-project mb-20">
           <img
@@ -65,10 +78,10 @@
           <div class="card-project">
             <h2 class="card-header-project">Project To do list</h2>
             <p class="card-paragraph-project">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Consectetur itaque possimus et earum. Non obcaecati odit natus ad,
-              asperiores illum corporis autem repellat, maxime pariatur aliquam
-              eos quaerat magnam beatae.
+              My to-do list page is a platform designed for managing your daily
+              tasks, allowing you to add, edit, or delete tasks as needed. I
+              developed this application using Vue.js in conjunction with
+              Tailwind CSS.
             </p>
 
             <div class="div-skill-project">
@@ -99,8 +112,13 @@
               />
             </div>
             <div class="button-container-project">
-              <base-button mode="card-project-button">Visit site</base-button>
-              <base-button mode="card-project-button">View code</base-button>
+              <a href="https://klamanjit.github.io/daily-task-project/">
+                <base-button mode="card-project-button">Visit site</base-button>
+              </a>
+
+              <a href="https://github.com/klamanjit/daily-task-project">
+                <base-button mode="card-project-button">View code</base-button>
+              </a>
             </div>
           </div>
         </div>
@@ -116,10 +134,10 @@
           <div class="card-project">
             <h2 class="card-header-project">Project Food Page</h2>
             <p class="card-paragraph-project">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Consectetur itaque possimus et earum. Non obcaecati odit natus ad,
-              asperiores illum corporis autem repellat, maxime pariatur aliquam
-              eos quaerat magnam beatae.
+              My food page focuses on Thai cuisine, describing various types of
+              Thai dishes and the restaurants that offer these main dishes and
+              beverages. I developed this application using Vue.js in
+              conjunction with Tailwind CSS..
             </p>
             <div class="div-skill-project">
               <img
@@ -149,8 +167,12 @@
               />
             </div>
             <div class="button-container-project">
-              <base-button mode="card-project-button">Visit site</base-button>
-              <base-button mode="card-project-button">View code</base-button>
+              <a href="https://klamanjit.github.io/jinan-food-project/">
+                <base-button mode="card-project-button">Visit site</base-button>
+              </a>
+              <a href="https://github.com/klamanjit/jinan-food-project">
+                <base-button mode="card-project-button">View code</base-button>
+              </a>
             </div>
           </div>
         </div>
@@ -166,10 +188,11 @@
           <div class="card-project">
             <h2 class="card-header-project">Project Cat article</h2>
             <p class="card-paragraph-project">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Consectetur itaque possimus et earum. Non obcaecati odit natus ad,
-              asperiores illum corporis autem repellat, maxime pariatur aliquam
-              eos quaerat magnam beatae.
+              My cat article page provides comprehensive insights into the
+              world's five most famous cat breeds, offering detailed
+              descriptions of each type, their characteristics, and origins. I
+              developed this informative application using TypeScript, HTML, and
+              CSS.
             </p>
             <div class="div-skill-project">
               <img
@@ -194,8 +217,13 @@
               />
             </div>
             <div class="button-container-project">
-              <base-button mode="card-project-button">Visit site</base-button>
-              <base-button mode="card-project-button">View code</base-button>
+              <a href="https://klamanjit.github.io/catsArticle-demo/">
+                <base-button mode="card-project-button">Visit site</base-button>
+              </a>
+
+              <a href="https://github.com/klamanjit/catsArticle-demo">
+                <base-button mode="card-project-button">View code</base-button>
+              </a>
             </div>
           </div>
         </div>
@@ -211,10 +239,10 @@
           <div class="card-project">
             <h2 class="card-header-project">Project KuroGame Page</h2>
             <p class="card-paragraph-project">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Consectetur itaque possimus et earum. Non obcaecati odit natus ad,
-              asperiores illum corporis autem repellat, maxime pariatur aliquam
-              eos quaerat magnam beatae.
+              My Kuro Game page is dedicated to my YouTube game channel, where I
+              play a wide variety of games, categorizing them into three
+              distinct types: Action games, Strategy games, and RPG games. I
+              developed this platform using pure HTML, CSS, and JavaScript.
             </p>
             <div class="div-skill-project">
               <img
@@ -234,8 +262,13 @@
               />
             </div>
             <div class="button-container-project">
-              <base-button mode="card-project-button">Visit site</base-button>
-              <base-button mode="card-project-button">View code</base-button>
+              <a href="https://klamanjit.github.io/kuro-game-page-projrct/">
+                <base-button mode="card-project-button">Visit site</base-button>
+              </a>
+
+              <a href="https://github.com/klamanjit/kuro-game-page-projrct">
+                <base-button mode="card-project-button">View code</base-button>
+              </a>
             </div>
           </div>
         </div>
@@ -250,11 +283,11 @@
 }
 
 .image-project {
-  @apply w-full h-96 2xl:h-[32rem] object-cover object-center rounded-md z-0;
+  @apply w-full phone:h-80 sm:h-96 2xl:h-[32rem] object-cover object-center rounded-md z-0;
 }
 
 .cover-image-project {
-  @apply absolute top-0 left-0 w-full h-96 2xl:h-[32rem] bg-slate-900 bg-opacity-30 rounded-md z-10;
+  @apply absolute top-0 left-0 w-full phone:h-80 sm:h-96 2xl:h-[32rem] bg-slate-900 bg-opacity-30 rounded-md z-10;
 }
 
 .card-project {
@@ -262,11 +295,11 @@
 }
 
 .card-header-project {
-  @apply text-2xl 2xl:text-3xl font-bold tracking-wide mb-2;
+  @apply phone:text-xl sm:text-2xl lg:text-xl xl:text-2xl 2xl:text-3xl font-bold tracking-wide mb-2;
 }
 
 .card-paragraph-project {
-  @apply text-base 2xl:text-lg text-slate-500 mb-2;
+  @apply phone:text-xs sm:text-base  lg:text-xs xl:text-base 2xl:text-lg text-slate-500 mb-2;
 }
 
 .div-skill-project {
@@ -274,10 +307,10 @@
 }
 
 .image-icon-project {
-  @apply h-10 w-10 2xl:h-12 2xl:w-12 rounded-full p-1;
+  @apply phone:h-8 phone:w-8 sm:h-10 sm:w-10 2xl:h-12 2xl:w-12 rounded-full p-1;
 }
 
 .button-container-project {
-  @apply flex text-xs 2xl:text-sm font-semibold gap-2;
+  @apply flex phone:text-[0.65rem] sm:text-xs lg:text-[0.55rem] 2xl:text-sm font-semibold gap-2;
 }
 </style>

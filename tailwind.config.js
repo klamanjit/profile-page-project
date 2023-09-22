@@ -10,6 +10,10 @@ export default {
         "resume-template": "2fr 3fr",
         "contact-template": "2fr 3fr",
       },
+
+      screens: {
+        phone: "450px",
+      },
     },
   },
   plugins: [],

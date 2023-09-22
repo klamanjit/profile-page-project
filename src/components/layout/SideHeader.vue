@@ -23,16 +23,18 @@ const isTopBar = ref(false);
       <img
         src="../../assets/profile/profile-pic.jpeg"
         alt="profile"
-        class="object-cover 2xl:w-40 2xl:h-40 lg:w-32 lg:h-32 sm:w-16 sm:h-16 rounded-full"
+        class="object-cover phone:w-12 phone:h-12 sm:w-16 sm:h-16 lg:w-32 lg:h-32 2xl:w-40 2xl:h-40 rounded-full"
       />
 
-      <h2 class="sm:hidden text-lg 2xl:text-xl font-bold">Wasit Manjit</h2>
+      <h2 class="phone:hidden sm:hidden text-lg 2xl:text-xl font-bold">
+        Wasit Manjit
+      </h2>
     </div>
 
     <!-- responsive sm -->
     <PhList
       @click="isTopBar = true"
-      class="h-10 w-10 lg:hidden fill-slate-50"
+      class="phone:h-8 phone:w-8 sm:h-10 sm:w-10 lg:hidden fill-slate-50"
     ></PhList>
 
     <!-- topBar backdrop -->
@@ -113,7 +115,7 @@ const isTopBar = ref(false);
     </ul>
 
     <!-- responsive lg -->
-    <ul class="sm:hidden lg:block p-2">
+    <ul class="phone:hidden sm:hidden lg:block p-2">
       <li class="list">
         <base-button
           link
@@ -185,8 +187,8 @@ const isTopBar = ref(false);
 
 <style scoped>
 .section-sidebar {
-  @apply sm:fixed sm:top-0 sm:left-0 sm:w-full sm:h-20  sm:flex sm:justify-between sm:items-center sm:z-40  sm:bg-slate-900 sm:bg-opacity-25 sm:shadow-sm sm:p-4
-  
+  @apply phone:fixed phone:top-0 phone:left-0 phone:w-full phone:h-20  phone:flex phone:justify-between phone:items-center phone:z-40  phone:bg-slate-900 phone:bg-opacity-25 phone:shadow-sm phone:p-4
+  sm:fixed sm:top-0 sm:left-0 sm:w-full sm:h-20  sm:flex sm:justify-between sm:items-center sm:z-40  sm:bg-slate-900 sm:bg-opacity-25 sm:shadow-sm sm:p-4
   lg:fixed lg:top-0 lg:left-0 lg:h-full lg:w-64 lg:block lg:bg-slate-100
   2xl:w-72;
 }
@@ -203,6 +205,6 @@ const isTopBar = ref(false);
 }
 
 .icon {
-  @apply h-8 w-8 2xl:h-12 2xl:w-12 ml-2;
+  @apply phone:h-6 phone:w-6 sm:h-8 sm:w-8 2xl:h-12 2xl:w-12 ml-2;
 }
 </style>
