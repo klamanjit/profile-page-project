@@ -12,7 +12,7 @@ export default {
       },
 
       screens: {
-        phone: "450px",
+        phone: "410px",
       },
     },
   },

@@ -65,7 +65,7 @@
       </nav>
 
       <main
-        class="phone:flex phone:flex-col lg:grid lg:grid-cols-2 phone:gap-4"
+        class="phone:flex phone:flex-col lg:grid lg:grid-cols-2 phone:gap-12"
       >
         <!-- To do list -->
         <div class="container-project mb-20">
@@ -291,7 +291,7 @@
 }
 
 .card-project {
-  @apply absolute -bottom-16 left-1/2 -translate-x-1/2 p-8 flex flex-col shadow-md w-2/3 bg-slate-50 z-20 rounded-md;
+  @apply absolute  phone:-bottom-16 left-1/2 -translate-x-1/2 p-8 flex flex-col shadow-md w-2/3 bg-slate-50 z-20 rounded-md;
 }
 
 .card-header-project {
@@ -299,7 +299,7 @@
 }
 
 .card-paragraph-project {
-  @apply phone:text-xs sm:text-base  lg:text-xs xl:text-base 2xl:text-lg text-slate-500 mb-2;
+  @apply phone:hidden phone:text-xs sm:text-base sm:block  lg:text-xs xl:text-base 2xl:text-lg text-slate-500 mb-2;
 }
 
 .div-skill-project {
