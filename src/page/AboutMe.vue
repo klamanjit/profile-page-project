@@ -3,6 +3,7 @@ import {
   PhYoutubeLogo,
   PhInstagramLogo,
   PhGithubLogo,
+  PhLinkedinLogo,
 } from "@phosphor-icons/vue";
 
 import {
@@ -106,9 +107,13 @@ import {
           <div class="flex items-center gap-4">
             <p class="paragraph-about">Social media:</p>
 
-            <a href="https://www.youtube.com/channel/UCT1iC8NPgSUngtrSubhGN8g">
-              <PhYoutubeLogo class="icon-about"></PhYoutubeLogo>
+            <a href="https://www.linkedin.com/in/wasit-manjit-414aa225b/">
+              <PhLinkedinLogo class="icon-about"></PhLinkedinLogo>
             </a>
+
+            <!-- <a href="https://www.youtube.com/channel/UCT1iC8NPgSUngtrSubhGN8g">
+              <PhYoutubeLogo class="icon-about"></PhYoutubeLogo>
+            </a> -->
 
             <a href="https://www.instagram.com/wasit.kla/">
               <PhInstagramLogo class="icon-about"></PhInstagramLogo>
@@ -123,21 +128,21 @@ import {
       <footer class="sm:flex sm:flex-col lg:grid lg:grid-cols-3 gap-4 p-4">
         <!-- 1st -->
         <div class="card-about">
-          <h2 class="card-header-about">YouTube</h2>
+          <h2 class="card-header-about">Linkedin</h2>
           <p class="paragraph-about mb-6">
-            My YouTube channel is dedicated to gaming, offering a diverse
-            selection of games such as Overwatch, Apex Legends, Elden Ring,
-            Osu!, and more for your enjoyment.
+            My LinkedIn profile highlights my educational background, past work
+            experiences, and job skills.
           </p>
           <div class="card-footer-about">
             <a href="https://www.youtube.com/channel/UCT1iC8NPgSUngtrSubhGN8g">
               <p class="uppercase font-semibold text-green-500">View</p>
             </a>
             <a href="https://www.youtube.com/channel/UCT1iC8NPgSUngtrSubhGN8g">
-              <PhYoutubeLogo class="icon-about"></PhYoutubeLogo>
+              <PhLinkedinLogo class="icon-about"></PhLinkedinLogo>
             </a>
           </div>
         </div>
+
         <!-- 2nd -->
         <div class="card-about">
           <h2 class="card-header-about">Instagram</h2>
@@ -172,6 +177,24 @@ import {
             </a>
           </div>
         </div>
+
+        <!-- 4th -->
+        <!-- <div class="card-about">
+          <h2 class="card-header-about">YouTube</h2>
+          <p class="paragraph-about mb-6">
+            My YouTube channel is dedicated to gaming, offering a diverse
+            selection of games such as Overwatch, Apex Legends, Elden Ring,
+            Osu!, and more for your enjoyment.
+          </p>
+          <div class="card-footer-about">
+            <a href="https://www.youtube.com/channel/UCT1iC8NPgSUngtrSubhGN8g">
+              <p class="uppercase font-semibold text-green-500">View</p>
+            </a>
+            <a href="https://www.youtube.com/channel/UCT1iC8NPgSUngtrSubhGN8g">
+              <PhYoutubeLogo class="icon-about"></PhYoutubeLogo>
+            </a>
+          </div>
+        </div> -->
       </footer>
     </section>
   </div>

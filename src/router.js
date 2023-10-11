@@ -7,7 +7,7 @@ import Projects from "./page/Projects.vue";
 import Contact from "./page/Contact.vue";
 
 const router = createRouter({
-  history: createWebHistory("/profile-page-project"),
+  history: createWebHistory(),
   routes: [
     // { path: "/", component: "/home" },
     { path: "/", redirect: "/home" },

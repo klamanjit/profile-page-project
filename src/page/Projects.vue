@@ -48,7 +48,7 @@
               />
             </div>
             <div class="button-container-project">
-              <a href="https://klamanjit.github.io/profile-page-project/">
+              <a href="https://profile.klamanjit.dev/home">
                 <base-button mode="card-project-button">
                   Visit site
                 </base-button>
@@ -112,7 +112,7 @@
               />
             </div>
             <div class="button-container-project">
-              <a href="https://klamanjit.github.io/daily-task-project/">
+              <a href="https://todolist.klamanjit.dev/">
                 <base-button mode="card-project-button">Visit site</base-button>
               </a>
 
@@ -167,7 +167,7 @@
               />
             </div>
             <div class="button-container-project">
-              <a href="https://klamanjit.github.io/jinan-food-project/">
+              <a href="https://jinan.klamanjit.dev/">
                 <base-button mode="card-project-button">Visit site</base-button>
               </a>
               <a href="https://github.com/klamanjit/jinan-food-project">

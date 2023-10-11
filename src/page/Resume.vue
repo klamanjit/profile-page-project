@@ -107,7 +107,7 @@
               >
               <a
                 class="text-slate-950 italic underline"
-                href="https://klamanjit.github.io/profile-page-project/"
+                href="https://profile.klamanjit.dev/home"
                 >Visit Site</a
               >
             </p>
@@ -142,7 +142,7 @@
               >
               <a
                 class="text-slate-950 italic underline"
-                href="https://klamanjit.github.io/daily-task-project/"
+                href="https://todolist.klamanjit.dev/"
                 >Visit Site</a
               >
             </p>
@@ -177,7 +177,7 @@
               >
               <a
                 class="text-slate-950 italic underline"
-                href="https://klamanjit.github.io/jinan-food-project/"
+                href="https://jinan.klamanjit.dev/"
                 >Visit Site</a
               >
             </p>
