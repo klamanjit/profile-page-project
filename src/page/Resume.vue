@@ -1,6 +1,5 @@
 <template>
   <div class="2xl:container 2xl:mx-auto">
-    <side-header></side-header>
     <section
       class="phone:pt-20 sm:pt-20 lg:pt-12 lg:pl-72 w-full phone:p-2 lg:p-12"
     >

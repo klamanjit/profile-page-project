@@ -94,7 +94,7 @@ const popupMassege = computed(() => {
         Continue
       </base-button>
     </div>
-    <side-header></side-header>
+
     <section
       class="w-full h-screen phone:pt-28 lg:pt-12 lg:pl-60 p-12 overflow-x-hidden container mx-auto"
       v-if="!isSubmit"

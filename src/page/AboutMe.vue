@@ -16,7 +16,6 @@ import {
 
 <template>
   <div class="2xl:container 2xl:mx-auto">
-    <side-header></side-header>
     <section
       class="phone:pl-0 sm:pl-0 lg:pl-60 phone:w-full phone:h-full sm:w-full sm:h-screen"
     >

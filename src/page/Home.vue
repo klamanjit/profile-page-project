@@ -6,7 +6,6 @@ const router = useRouter();
 
 <template>
   <div class="2xl:container 2xl:mx-auto">
-    <side-header></side-header>
     <section class="phone:w-full phone:h-screen sm:w-full sm:h-screen lg:pl-60">
       <!-- Hero section -->
       <div
