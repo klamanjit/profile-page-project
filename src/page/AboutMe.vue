@@ -133,7 +133,7 @@ import {
             experiences, and job skills.
           </p>
           <div class="card-footer-about">
-            <a href="https://www.youtube.com/channel/UCT1iC8NPgSUngtrSubhGN8g">
+            <a href="https://www.linkedin.com/in/wasit-manjit-414aa225b/">
               <p class="uppercase font-semibold text-green-500">View</p>
             </a>
             <a href="https://www.youtube.com/channel/UCT1iC8NPgSUngtrSubhGN8g">
